@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import resume from '../assets/Dhruv_Gupta_Resume.pdf';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -24,9 +25,7 @@ const Home = () => {
           </button>
 
           <a
-            href="/Dhruv_Gupta_Resume.pdf"
-            download
-            className="btn-resume"
+            href={resume} download className="btn-resume"
           >
             Download Resume
           </a>
