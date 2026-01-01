@@ -5,7 +5,7 @@ const AppNavbar = () => {
   return (
     <Navbar expand="lg" fixed="top" className="glass-panel mx-4 mt-3">
       <Container>
-        <Navbar.Brand className="fw-bold text-white">
+        <Navbar.Brand className="fw-bold text-black">
           Dhruv Gupta
         </Navbar.Brand>
 
