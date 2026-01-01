@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import resume from '../assets/Dhruv_Gupta_Resume.pdf';
+import resume from '../assets/Dhruv_Gupta_Angular_developer.pdf';
 
 const Home = () => {
   const navigate = useNavigate();
